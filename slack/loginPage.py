@@ -30,4 +30,4 @@ domainUrl = 'https://' + domain + '.slack.com/'
 assert domainUrl in driver.current_url
 
 # exit
-# driver.quit()
+driver.quit()
